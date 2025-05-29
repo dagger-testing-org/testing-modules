@@ -1,0 +1,13 @@
+name: testing
+
+on:
+  push:
+    branch: main
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo
+        run: echo "Hello World"
