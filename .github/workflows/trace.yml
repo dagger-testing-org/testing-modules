@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Export Workflow Trace
-        uses: inception-health/otel-export-trace-action@latest
+        uses: corentinmusard/otel-cicd-action@v1
         with:
           otlpEndpoint: https://daef-148-222-223-78.ngrok-free.app/v1/traces
           otlpHeaders: ${{ secrets.OTLP_HEADERS }}
