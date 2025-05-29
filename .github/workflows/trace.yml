@@ -13,7 +13,7 @@ jobs:
       - name: Export Workflow Trace
         uses: corentinmusard/otel-cicd-action@v1
         with:
-          otlpEndpoint: https://daef-148-222-223-78.ngrok-free.app/v1/traces
+          otlpEndpoint: https://4094-148-222-223-78.ngrok-free.app/v1/traces
           otlpHeaders: ${{ secrets.OTLP_HEADERS }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           runId: ${{ github.event.workflow_run.id }}
