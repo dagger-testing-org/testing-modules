@@ -1,0 +1,14 @@
+{
+  "name": "dependent",
+  "engineVersion": "v0.18.14",
+  "sdk": {
+    "source": "go"
+  },
+  "dependencies": [
+    {
+      "name": "breakage",
+      "source": "github.com/dagger-testing-org/testing-modules/breakage@e0b36567b8983d9f7f0ee3a18d8b607d2c897c17",
+      "pin": "e0b36567b8983d9f7f0ee3a18d8b607d2c897c17"
+    }
+  ]
+}
